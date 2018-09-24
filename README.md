@@ -10,19 +10,4 @@ For non-SSL requests on port 80 change item "Nextcloud Monitoring API" to http i
 
 Shows different operating values of your Nextcloud server:
 
-Version
-Webserver
-Database Type
-Database Version
-Database Size
-PHP Max. Execution Time
-PHP Memory Limit
-PHP Upload Max. Filesize
-PHP Version
-Storage Files
-Storage Freespace
-Storage Users
-Number of Storages
-Apps Installed
-Apps Needing Update
-
+Version, Webserver, Database Type, Database Version, Database Size, PHP Max. Execution Time, PHP Memory Limit, PHP Upload Max. Filesize, PHP Version, Storage Files, Storage Freespace, Storage Users, Number of Storages, Apps Installed, Apps Needing Update
