@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>3.4</version>
-    <date>2018-09-24T12:17:54Z</date>
+    <date>2018-09-27T20:41:37Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -68,7 +68,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  https://{HOST.NAME}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
+                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  {$HTTP_OR_HTTPS}://{$FQDN_NEXTCLOUD}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
                     </master_item>
                 </item>
                 <item>
@@ -116,7 +116,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  https://{HOST.NAME}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
+                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  {$HTTP_OR_HTTPS}://{$FQDN_NEXTCLOUD}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
                     </master_item>
                 </item>
                 <item>
@@ -164,7 +164,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  https://{HOST.NAME}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
+                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  {$HTTP_OR_HTTPS}://{$FQDN_NEXTCLOUD}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
                     </master_item>
                 </item>
                 <item>
@@ -212,7 +212,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  https://{HOST.NAME}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
+                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  {$HTTP_OR_HTTPS}://{$FQDN_NEXTCLOUD}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
                     </master_item>
                 </item>
                 <item>
@@ -260,7 +260,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  https://{HOST.NAME}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
+                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  {$HTTP_OR_HTTPS}://{$FQDN_NEXTCLOUD}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
                     </master_item>
                 </item>
                 <item>
@@ -308,7 +308,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  https://{HOST.NAME}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
+                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  {$HTTP_OR_HTTPS}://{$FQDN_NEXTCLOUD}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
                     </master_item>
                 </item>
                 <item>
@@ -356,7 +356,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  https://{HOST.NAME}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
+                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  {$HTTP_OR_HTTPS}://{$FQDN_NEXTCLOUD}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
                     </master_item>
                 </item>
                 <item>
@@ -404,7 +404,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  https://{HOST.NAME}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
+                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  {$HTTP_OR_HTTPS}://{$FQDN_NEXTCLOUD}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
                     </master_item>
                 </item>
                 <item>
@@ -452,7 +452,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  https://{HOST.NAME}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
+                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  {$HTTP_OR_HTTPS}://{$FQDN_NEXTCLOUD}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
                     </master_item>
                 </item>
                 <item>
@@ -500,7 +500,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  https://{HOST.NAME}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
+                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  {$HTTP_OR_HTTPS}://{$FQDN_NEXTCLOUD}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
                     </master_item>
                 </item>
                 <item>
@@ -548,7 +548,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  https://{HOST.NAME}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
+                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  {$HTTP_OR_HTTPS}://{$FQDN_NEXTCLOUD}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
                     </master_item>
                 </item>
                 <item>
@@ -596,7 +596,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  https://{HOST.NAME}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
+                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  {$HTTP_OR_HTTPS}://{$FQDN_NEXTCLOUD}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
                     </master_item>
                 </item>
                 <item>
@@ -644,7 +644,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  https://{HOST.NAME}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
+                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  {$HTTP_OR_HTTPS}://{$FQDN_NEXTCLOUD}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
                     </master_item>
                 </item>
                 <item>
@@ -692,7 +692,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  https://{HOST.NAME}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
+                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  {$HTTP_OR_HTTPS}://{$FQDN_NEXTCLOUD}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
                     </master_item>
                 </item>
                 <item>
@@ -740,7 +740,7 @@
                     </preprocessing>
                     <jmx_endpoint/>
                     <master_item>
-                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  https://{HOST.NAME}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
+                        <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  {$HTTP_OR_HTTPS}://{$FQDN_NEXTCLOUD}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
                     </master_item>
                 </item>
                 <item>
@@ -748,7 +748,7 @@
                     <type>0</type>
                     <snmp_community/>
                     <snmp_oid/>
-                    <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  https://{HOST.NAME}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
+                    <key>system.run[curl -s --user {$CLOUD_ADMIN_USER}:{$CLOUD_ADMIN_PW}  {$HTTP_OR_HTTPS}://{$FQDN_NEXTCLOUD}/ocs/v2.php/apps/serverinfo/api/v1/info]</key>
                     <delay>1m</delay>
                     <history>7d</history>
                     <trends>0</trends>
@@ -795,6 +795,14 @@
                 <macro>
                     <macro>{$CLOUD_ADMIN_USER}</macro>
                     <value>user</value>
+                </macro>
+                <macro>
+                    <macro>{$FQDN_NEXTCLOUD}</macro>
+                    <value>nextcloud.domain.com</value>
+                </macro>
+                <macro>
+                    <macro>{$HTTP_OR_HTTPS}</macro>
+                    <value>https</value>
                 </macro>
             </macros>
             <templates/>
