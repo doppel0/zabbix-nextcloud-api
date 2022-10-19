@@ -1,6 +1,6 @@
 # zabbix-nextcloud-api
 
-Nextcloud Monitoring API integration for Zabbix 3.4
+Nextcloud Monitoring API integration for Zabbix up to Version 6.0 LTS
 
 Needs curl to be installed on the Nextcloud server.
 
