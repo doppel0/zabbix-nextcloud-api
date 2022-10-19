@@ -1,6 +1,6 @@
 # zabbix-nextcloud-api
 
-Nextcloud Monitoring API integration for Zabbix 4.2
+Nextcloud Monitoring API integration for Zabbix up to Version 6.0 LTS
 
 Set the Adminuser/PW in the Macros according to your needs.
 
